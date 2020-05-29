@@ -30,7 +30,7 @@ function App(props) {
   return (
     <S.HomeContainer>  
       <S.Content>
-        <S.Input className="usuarioInput" placeholder='Usuario' value={usuario} onChange={e => setUsuario(e.target.value)}/>
+        <S.Input className="usuarioInput" placeholder='username github' value={usuario} onChange={e => setUsuario(e.target.value)}/>
         <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
       </S.Content>
       { erro ? <S.errorMsg>Ocorreu um erro. Tente novamente</S.errorMsg> : ''}
