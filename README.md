@@ -17,3 +17,4 @@ o objetivo do projeto foi melhorar minhas habilidades no conceito de componentiz
 home
 
 ![repositories](./public/repository.png)
+repositories
